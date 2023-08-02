@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="0" errors="0" time="8.122">
+  <testsuite name="UkGovNotify" errors="0" failures="0" skipped="0" timestamp="2023-08-02T22:37:31" time="4.926" tests="2">
+    <testcase classname="UkGovNotify should send email notification and return true" name="UkGovNotify should send email notification and return true" time="0.044">
+    </testcase>
+    <testcase classname="UkGovNotify should fail to send email notification and return false" name="UkGovNotify should fail to send email notification and return false" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="sendEmailNotification function" errors="0" failures="0" skipped="0" timestamp="2023-08-02T22:37:31" time="7.109" tests="2">
+    <testcase classname="sendEmailNotification function should return status 200 and successful message when email is sent" name="sendEmailNotification function should return status 200 and successful message when email is sent" time="0.054">
+    </testcase>
+    <testcase classname="sendEmailNotification function should return status 400 and failure message when email is not sent" name="sendEmailNotification function should return status 400 and failure message when email is not sent" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

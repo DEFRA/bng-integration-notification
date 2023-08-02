@@ -2,17 +2,14 @@
   "name": "bng-integration-notification",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "scripts": {
-    "start": "func start ",
-    "lint": "standard",
-    "test": "jest --config jest.config.cjs --coverage"
+    "start": "func start",
+    "test": "jest --coverage --silent=false"
   },
   "dependencies": {
     "@azure/functions": "^4.0.0-alpha.7",
     "notifications-node-client": "^7.0.3"
   },
-  "main": "src/functions/*.js",
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-env": "^7.22.9",
@@ -24,6 +21,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-standard": "^5.0.0",
     "jest": "^29.6.2",
+    "jest-junit": "^16.0.0",
     "standard": "^17.1.0"
   }
 }

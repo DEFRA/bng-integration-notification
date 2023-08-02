@@ -1,4 +1,4 @@
-export class UkGovNotify {
+module.exports = class UkGovNotify {
   constructor (notifyClientInstance) {
     this.notifyClientInstance = notifyClientInstance
   }

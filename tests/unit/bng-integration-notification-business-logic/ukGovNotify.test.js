@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { UkGovNotify } from '../services/ukGovNotify.js'
+const UkGovNotify = require('../../../bng-integration-notification-business-logic/ukGovNotify.js')
 
 jest.mock('notifications-node-client', () => ({
   NotifyClient: jest.fn().mockImplementation(() => ({
